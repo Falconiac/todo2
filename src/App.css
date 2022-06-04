@@ -2,3 +2,48 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+h2 {
+  background-color: rgb(98, 98, 98);
+  color: white;
+  text-align: center;
+  font-size: 4em;
+  font-weight: 900;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0.2em;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0em;
+  width: 100%;
+  background-color: rgb(98, 98, 98);
+  padding: 0.8em;
+}
+.link {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+  border: 0.1em solid white;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  background-color: black;
+  color: aliceblue;
+}
+
+.link:hover {
+  color: aqua;
+  box-shadow: 0em 0em 2em;
+  border: 0.1em solid aqua;
+  text-decoration: underline;
+  transition: 100ms;
+}
+.link:active {
+  color: hotpink;
+  box-shadow: 0em 0em 2em;
+  border: 0.1em solid hotpink;
+  text-decoration: underline;
+}

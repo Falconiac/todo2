@@ -10,9 +10,15 @@ export default function Random() {
       <h2>Random</h2>
 
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/Archive">Archive</Link>
-        <Link to="/Random">Random</Link>
+        <Link className="link" to="/">
+          Home
+        </Link>
+        <Link className="link" to="/Archive">
+          Archive
+        </Link>
+        <Link className="link" to="/Random">
+          Random
+        </Link>
       </nav>
     </>
   );
